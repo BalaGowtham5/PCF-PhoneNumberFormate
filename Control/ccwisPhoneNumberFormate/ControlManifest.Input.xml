@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ccwis" constructor="ccwisPhoneNumberFormate" version="0.0.1" display-name-key="ccwis_PhoneNumberFormate" description-key="CCWIS Phone Number Formatter" control-type="standard">
+    
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    
+    <property name="phoneNumber" display-name-key="Phone Number" description-key="The phone number field" of-type="SingleLine.Phone" usage="bound" required="true" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ccwis_PhoneNumberFormate.css" order="1" />
+    </resources>
+  </control>
+</manifest>
